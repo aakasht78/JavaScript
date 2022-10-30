@@ -13,10 +13,10 @@
         // let a = 5;b = 10
         // let sum = a+b
         // console.log(sum) //! This is right way to use
-        //console.log(a+b)    //! This is not right way to use
+        //console.log(a+b)    //! This is not right way to use 
 
 
-        let x =10; y = "chai"
+        let x =10; y = "chai" 
         let sum1=x+y;
         console.log(sum1)
         
