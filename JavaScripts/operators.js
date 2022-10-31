@@ -115,3 +115,66 @@
                                   //!       datatypes also
 
         
+
+//!      4.Logical Operators
+//? if both condion are true the output will be true
+//? if one condition is also false  the output will be false
+    //? && operator
+        let numm1 =20
+        let numm2 =30
+        if(numm1 > numm2 && num1>40){
+            console.log("happy")
+        }
+        else{
+            console.log("sad")
+        }
+
+
+        //?Or Operator :-
+        //* if both the condition are false the output will be false
+        //* if one  condition is false the output will be true
+
+
+        let numm11 =20
+        let numm22 =30
+        if(numm11 > numm22 || numm11>0){
+            console.log("happy")
+        }
+        else{
+            console.log("sad")
+        }
+
+
+        //! Unary Operator
+        //? ++ Increment -- Decrement
+        //? Post Increment
+        //? First code will be executed then increase the value of variable
+
+        let x13 = 1000 ; 
+        let y13 = x13++
+
+        console.log(x13)
+        console.log(y13)
+        //Pre Increment 
+        //? First increase the value of variable than execute the code
+
+        let x14 = 100 ; 
+        let y14 = ++x14
+
+        console.log(x14)
+        console.log(y14)
+
+
+        //! Ternary Operator :-
+        //* It is the combination of questionMark and colan.
+        //*  to use this operator we should write some condional expression
+        //* then we need to give two statements seprated by colan
+
+      //!  SYNTAX :- Condition ? Expression : Expression2;
+      let a=50; b=20;
+      let sum=(a<b)? "true" : "false"
+      console.log(sum)
+
+      let h = "chai"; y=50;
+      let value=(h===y)? "good":"bad"
+      console.log(value)
