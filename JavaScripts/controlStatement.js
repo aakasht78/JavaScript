@@ -93,3 +93,56 @@
             console.log('if it is sunday it is best day ')
             break;
     }
+
+
+
+    //!==================================================================================================================
+
+
+ //!==========================================Looping Statement==========================================================
+//?  Looping statement is used to perform some repeated task based on some conditions either will return  either true or false
+//? A loop will continue to execute until the dedined ccondition returrn false
+
+//* For Loop
+//* While Loop
+//* DO While Loop
+
+
+//? For loop :-
+
+
+
+
+for(let hola=1;hola<=10;hola++){
+    // console.log(hola)
+}
+
+
+
+//While Loop 
+
+// while (condition) {
+//     statement
+// }
+
+
+// let qwerty = 1;
+// while (qwerty >=10) {
+//     console.log(qwerty)
+//     qwerty++
+// }
+
+
+// do while {
+//     statement
+//     increment / decrement
+// }
+// while(condion)
+
+
+// let o =1;
+// do{
+//     console.log(o)
+//     o++
+// }
+// while(o<=10);
