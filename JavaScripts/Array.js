@@ -209,3 +209,19 @@ console.log("===============================================================")
 
         hello()
         console.log("end")
+
+
+
+        //! Lexical scoping :-
+        //? how JS recive the file and eexecute acording to the code
+
+        console.log("start")
+        console.log(a)
+        function v1(){
+            var b = 20
+            console.log(b)
+        }
+        v1()
+        const c = 30
+        console.log(c)
+        console.log("end")
