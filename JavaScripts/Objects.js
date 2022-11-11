@@ -154,3 +154,101 @@
         for:"good"
     }
     console.log(v.if)
+
+    //!  Object.assing():-
+    //?        this method will copy all the properties of one or more objects into a single and new modified object.
+
+    let m={
+        username:"Aakash"
+    }
+    console.log(m)
+    let k = {
+        training :"web tech"
+    }
+    console.log(k)
+
+    let z = Object.assign(m,k)
+    console.log(z)
+
+    //! 4. Object.entries :-
+    //?         This () is use to return an array of a given object . each key value pair will be returned as individual array
+
+    let a1 = {
+        username:"Aakash",
+        company: "Google"
+    }
+
+    console.log(a1)
+
+    let e = Object.entries(a1)
+    console.log(e)
+console.log('==============================================================')
+
+    //! 5. Object . from entries() :-
+    //?     This method will convert a list of key value pairs into object from array
+
+    const students=[
+        ["age",23],
+        ["job","sales"]
+    ]
+    console.log(students)
+
+    let newstudents = Object.fromEntries(students)
+    console.log(newstudents)
+
+        //! Freeze :-
+    //?    This method is used to freez the object .  this object cannot be changed.
+    //?    It cannot add new value , delete value change value, delete value..........
+    //? it will just return the same object
+        let o = {
+            name :"aakash",
+            age:21
+        }
+        // console.log(o)
+        let i = Object.freeze(o)
+        console.log(i)
+        // is Frozen
+        //? It will check for the object wether it is freezed or not 
+        //? it returns true if it is freezed or false if it is not freezed
+        let l = Object.isFrozen(o)
+        console.log(l)
+
+
+        //! Seal :-
+        //? This method will seal the object onaly at fied set of properties , cannot add new valuses,
+        //? cannot    
+        //?    
+        //?    
+
+        let u = {
+            name :"aakash",
+            id:01
+        }
+        u.name="ram"//? we can update the older value in seal
+
+        console.log(u)
+        let h = Object.seal(u)
+
+        console.log(h)
+
+
+        //! Is sealed :-
+        let r = Object.isSealed(u);
+        console.log(r)
+        //?
+
+        //! isExtensible:-
+        //? this () will check weather object is extensible to add new properties into it
+
+        let w = {
+            class:"Web tech",
+            time :"7:00 PM"
+        }
+        console.log(w)
+
+        let c = Object.isExtensible(w)
+        console.log(w)
+        //! Prevent extensions:-
+        //?
+        let t = Object.preventExtensions(w)
+        console.log(t)
