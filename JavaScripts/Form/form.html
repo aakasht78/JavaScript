@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Google_Forms_logo_%282014-2020%29.svg/1489px-Google_Forms_logo_%282014-2020%29.svg.png">
+</head>
+
+<body>
+
+    <form action="./formsubmit.html" align="center" name="form1" onsubmit="return(validation())">
+        <label for="name"> USER NAME :</label>
+        <input type="text" id="name" name="usname" placeholder="enter your name ">
+        <br> <br>
+        <label for="pass"> PASSWORD: </label>
+        <input type="password" id="pass" name="pwd" placeholder="enter your password">
+        <br> <br>
+        <input type="SUBMIT" value="submit">
+        <input type="RESET">
+    </form>
+
+
+
+    <script src="/JavaScripts/Form/formValidate.js"></script>
+</body>
+
+</html>
